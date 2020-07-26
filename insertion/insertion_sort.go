@@ -2,7 +2,7 @@ package insertion
 
 import "github.com/SudhakarPai/sort"
 
-// Sort ... implements the insertion sort on the collection.
+// Sort implements the insertion sort on the collection.
 func Sort(slice sort.Collection) {
 	for i := 1; i < slice.Len(); i++ {
 		elmIndex := i
